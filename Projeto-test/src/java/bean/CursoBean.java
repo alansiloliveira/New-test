@@ -13,11 +13,14 @@ public class CursoBean extends InstituicaoBean{
     
     private int id, idInstituicao;
     private String curso, dataInicio, dataFinal;
+    
 
+    @Override
     public int getId() {
         return id;
     }
 
+    @Override
     public void setId(int id) {
         this.id = id;
     }
